@@ -1,8 +1,8 @@
-add_library(msgs_lib INTERFACE)
+add_library(raptor_msgs INTERFACE)
 
-target_include_directories(msgs_lib INTERFACE
-standard_msgs
-quadcopter_msgs
+target_include_directories(raptor_msgs INTERFACE
+    standard_msgs
+    quadcopter_msgs
 )
 
 add_subdirectory(standard_msgs)

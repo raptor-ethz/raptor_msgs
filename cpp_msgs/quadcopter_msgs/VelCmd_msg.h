@@ -1,14 +1,14 @@
 #pragma once
-#include "standard_msgs/Header_msg.h"
-#include "standard_msgs/Velocity_msg.h"
+#include "Header_msg.h"
+#include "Velocity_msg.h"
 
 namespace cpp_msg {
 
-struct QuadVelocityCmd {
+struct VelCmd_msg {
 
-  Header header;
+  Header_msg header;
 
-  Velocity velocity;
+  Velocity_msg velocity;
 
   float yaw_angle;
 };

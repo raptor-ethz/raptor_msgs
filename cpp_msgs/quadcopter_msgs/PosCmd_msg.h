@@ -1,14 +1,14 @@
 #pragma once
-#include "standard_msgs/Header_msg.h"
-#include "standard_msgs/Position_msg.h"
+#include "Header_msg.h"
+#include "Position_msg.h"
 
 namespace cpp_msg {
 
-struct QuadPositionCmd {
+struct PosCmd_msg {
 
-  Header header;
+  Header_msg header;
 
-  Position position;
+  Position_msg position;
 
   float yaw_angle;
 };

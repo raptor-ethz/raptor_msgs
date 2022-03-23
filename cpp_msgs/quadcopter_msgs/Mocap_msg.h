@@ -1,17 +1,17 @@
 #pragma once
-#include "standard_msgs/Euler_angle_msg.h"
-#include "standard_msgs/Header_msg.h"
-#include "standard_msgs/Position_msg.h"
+#include "Euler_angle_msg.h"
+#include "Header_msg.h"
+#include "Position_msg.h"
 
 namespace cpp_msg {
 
-struct Mocap {
+struct Mocap_msg {
 
-  Header header;
+  Header_msg header;
 
-  Position position;
+  Position_msg position;
 
-  Euler_angle orientation;
+  Euler_angle_msg orientation;
 
   float latency;
 };
