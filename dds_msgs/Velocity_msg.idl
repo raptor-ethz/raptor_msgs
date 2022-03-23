@@ -1,0 +1,13 @@
+#pragma once
+
+module idl_msg{
+
+struct Velocity {
+
+  float vx;
+  float vy;
+  float vz;
+  
+};
+
+};

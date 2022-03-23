@@ -1,0 +1,20 @@
+#pragma once
+
+#include "Header_msg.idl"
+#include "Position_msg.idl"
+#include "Euler_angle.idl"
+
+module idl_msg{
+
+struct Mocap {
+
+  Header header;
+
+  Position position;
+
+  Euler_angle orientation;
+
+  float latency;
+};
+
+};

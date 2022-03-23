@@ -1,0 +1,6 @@
+#pragma once
+
+module idl_msg{
+
+string data;
+};
