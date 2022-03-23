@@ -2,6 +2,10 @@
 
 module idl_msg{
 
-float data;
+struct Float_msg {
+    
+    float data;
+    
+};
 
 };

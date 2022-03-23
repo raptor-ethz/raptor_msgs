@@ -2,7 +2,7 @@
 
 module idl_msg{
 
-struct Quaternion {
+struct Euler_angle {
 
   float roll;
   float pitch;

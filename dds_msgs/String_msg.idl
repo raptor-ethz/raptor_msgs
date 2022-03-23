@@ -2,5 +2,10 @@
 
 module idl_msg{
 
+struct String_msg {
+
 string data;
+
+};
+
 };

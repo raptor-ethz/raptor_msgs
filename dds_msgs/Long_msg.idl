@@ -2,9 +2,9 @@
 
 module idl_msg{
 
-struct Bool_msg {
+struct Long_msg {
 
-    boolean data;
+    long data;
 
 };
 

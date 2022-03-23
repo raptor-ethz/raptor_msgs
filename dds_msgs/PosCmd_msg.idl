@@ -1,15 +1,15 @@
-#pragma once
+
 
 #include "Position_msg.idl"
 #include "Header_msg.idl"
 
 module idl_msg{
 
-struct QuadPositionCmd {
+struct PosCmd_msg {
 
-  Header header;
+  Header_msg header;
 
-  Position position;
+  Position_msg position;
 
   float yaw_angle;
 };

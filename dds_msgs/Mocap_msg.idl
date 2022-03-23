@@ -2,15 +2,15 @@
 
 #include "Header_msg.idl"
 #include "Position_msg.idl"
-#include "Euler_angle.idl"
+#include "Euler_angle_msg.idl"
 
 module idl_msg{
 
-struct Mocap {
+struct Mocap_msg {
 
-  Header header;
+  Header_msg header;
 
-  Position position;
+  Position_msg position;
 
   Euler_angle orientation;
 

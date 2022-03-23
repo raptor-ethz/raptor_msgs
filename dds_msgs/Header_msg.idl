@@ -2,7 +2,7 @@
 
 module idl_msg{
 
-struct Header {
+struct Header_msg {
 
   long timestamp;
   string id;

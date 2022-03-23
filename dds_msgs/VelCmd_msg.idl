@@ -5,11 +5,11 @@
 
 module idl_msg{
 
-struct QuadVelocityCmd {
+struct VelCmd_msg {
 
-  Header header;
+  Header_msg header;
 
-  Velocity velocity;
+  Velocity_msg velocity;
 
   float yaw_rate;
 };
