@@ -2,6 +2,8 @@
 
 namespace cpp_msg {
 
-bool data;
+struct Bool_msg {
+  bool data;
+};
 
 } // namespace cpp_msg

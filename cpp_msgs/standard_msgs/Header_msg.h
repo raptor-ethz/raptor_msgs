@@ -1,8 +1,9 @@
 #pragma once
+#include <string>
 
 namespace cpp_msg {
 
-struct Header {
+struct Header_msg {
 
   long timestamp;
   std::string id;

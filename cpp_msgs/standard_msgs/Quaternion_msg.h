@@ -2,7 +2,7 @@
 
 namespace cpp_msg {
 
-struct Quaternion {
+struct Quaternion_msg {
 
   float w;
   float x;

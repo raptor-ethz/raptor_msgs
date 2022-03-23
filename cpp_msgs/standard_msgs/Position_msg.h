@@ -3,7 +3,7 @@
 
 namespace cpp_msg {
 
-struct Position {
+struct Position_msg {
 
   float x;
   float y;

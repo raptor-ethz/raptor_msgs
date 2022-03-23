@@ -2,6 +2,8 @@
 
 namespace cpp_msg {
 
-float data;
+struct Float_msg {
+  float data;
+};
 
 } // namespace cpp_msg

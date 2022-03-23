@@ -3,7 +3,7 @@
 
 namespace cpp_msg {
 
-struct Velocity {
+struct Velocity_msg {
 
   float vx;
   float vy;

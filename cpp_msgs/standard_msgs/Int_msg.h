@@ -2,6 +2,8 @@
 
 namespace cpp_msg {
 
-int data;
+struct Int_msg {
+  int data;
+};
 
 } // namespace cpp_msg

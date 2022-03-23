@@ -2,7 +2,7 @@
 
 namespace cpp_msg {
 
-struct Euler_angle {
+struct Euler_angle_msg {
 
   float roll;
   float pitch;
