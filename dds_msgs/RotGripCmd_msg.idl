@@ -4,8 +4,8 @@ module idl_msg{
 
 struct RotGripCmd_msg {
 
-  float front_arm_deg;
-  float back_arm_deg;
+  int32 front_arm_deg;
+  int32 back_arm_deg;
 };
 
 };

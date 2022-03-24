@@ -4,8 +4,8 @@ namespace cpp_msg {
 
 struct RotGripCmd_msg {
 
-  float front_arm_deg;
-  float back_arm_deg;
+  int front_arm_deg;
+  int back_arm_deg;
 };
 
 } // namespace cpp_msg
