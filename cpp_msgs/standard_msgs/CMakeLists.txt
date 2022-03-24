@@ -8,8 +8,8 @@ target_sources(standard_msgs_lib INTERFACE
     String_msg.h
     Quaternion_msg.h
     Euler_angle_msg.h
-    Position_msg.h
-    Velocity_msg.h
+    Vector3f_msg.h
+    Vector3i_msg.h
 )
 
 target_link_libraries(standard_msgs_lib INTERFACE

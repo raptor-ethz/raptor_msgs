@@ -1,14 +1,14 @@
 #pragma once
 #include "Header_msg.h"
-#include "Position_msg.h"
+#include "Vector3f_msg.h"
 
 namespace cpp_msg {
 
-struct PosCmd_msg {
+struct QuadVelCmd_msg {
 
   Header_msg header;
 
-  Position_msg position;
+  Vector3f_msg velocity;
 
   float yaw_angle;
 };

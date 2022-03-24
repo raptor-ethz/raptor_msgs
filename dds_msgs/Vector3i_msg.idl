@@ -1,0 +1,13 @@
+#pragma once
+
+module idl_msg{
+
+struct Vector3f_msg {
+
+  int32 x;
+  int32 y;
+  int32 z;
+  
+};
+
+};

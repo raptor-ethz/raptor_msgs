@@ -3,11 +3,11 @@
 
 namespace cpp_msg {
 
-struct Position_msg {
+struct Vector3i_msg {
 
-  float x;
-  float y;
-  float z;
+  int x;
+  int y;
+  int z;
 };
 
 } // namespace cpp_msg

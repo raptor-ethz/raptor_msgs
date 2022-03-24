@@ -3,11 +3,11 @@
 
 namespace cpp_msg {
 
-struct Velocity_msg {
+struct Vector3f_msg {
 
-  float vx;
-  float vy;
-  float vz;
+  float x;
+  float y;
+  float z;
 };
 
 } // namespace cpp_msg

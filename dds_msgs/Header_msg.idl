@@ -5,7 +5,8 @@ module idl_msg{
 struct Header_msg {
 
   long timestamp;
-  string id;
+  long id;
+  string description;
   
 };
 

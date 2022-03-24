@@ -2,7 +2,7 @@
 
 module idl_msg{
 
-struct Position_msg {
+struct Vector3f_msg {
 
   float x;
   float y;

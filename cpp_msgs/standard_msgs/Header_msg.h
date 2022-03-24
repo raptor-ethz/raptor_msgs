@@ -6,7 +6,8 @@ namespace cpp_msg {
 struct Header_msg {
 
   long timestamp;
-  std::string id;
+  long id;
+  std::string description;
 };
 
 } // namespace cpp_msg

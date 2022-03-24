@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Header_msg.idl"
-#include "Position_msg.idl"
+#include "Vector3f_msg.idl"
 #include "Euler_angle_msg.idl"
 
 module idl_msg{
@@ -10,7 +10,7 @@ struct Mocap_msg {
 
   Header_msg header;
 
-  Position_msg position;
+  Vector3f_msg position;
 
   Euler_angle orientation;
 

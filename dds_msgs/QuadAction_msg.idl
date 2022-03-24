@@ -1,0 +1,13 @@
+#pragma once
+ 
+enum Action { status, arm, disarm, takeoff, land, offboard};
+
+module idl_msg{
+
+struct QuadAction_msg {
+
+ Action action;
+
+};
+
+};
