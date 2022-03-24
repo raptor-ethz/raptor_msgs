@@ -1,12 +1,12 @@
 #pragma once
 
-enum Action { status, arm, disarm, takeoff, land, offboard };
+enum Action_cmd { status, arm, disarm, takeoff, land, offboard };
 
 namespace cpp_msg {
 
 struct QuadAction_msg {
 
-  Action action;
+  Action_cmd action;
 };
 
 } // namespace cpp_msg
