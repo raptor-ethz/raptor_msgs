@@ -1,7 +1,6 @@
 #pragma once
 
 namespace cpp_msg {
-
 struct QuadStatus_msg {
 
   int battery;

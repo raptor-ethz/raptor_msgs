@@ -1,0 +1,18 @@
+#pragma once
+
+#include "QuadStatus_msg.idl"
+
+module idl_msg{
+  enum FeedbackType { null, status, arm, disarm, takeoff, land, offboard };
+
+  enum ResultType { null, success, fail, disaster };
+
+  struct QuadFeedback_msg{
+    FeedbackType feedback;
+
+    QuadStatus_msg status;
+
+    ResultType result;
+  };
+
+};

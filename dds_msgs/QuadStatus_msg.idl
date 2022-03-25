@@ -1,14 +1,14 @@
 #pragma once
 
 module idl_msg{
-
-struct QuadStatus_msg {
+  struct QuadStatus_msg {
 
   int32 battery;
 
   boolean armable;
 
   boolean local_position_ok;
-};
+
+  };
 
 };
