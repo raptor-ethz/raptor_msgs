@@ -1,9 +1,17 @@
 #pragma once
 #include "QuadStatus_msg.h"
 
-enum FeedbackType { null, status, arm, disarm, takeoff, land, offboard };
+enum FeedbackType {
+  fb_null,
+  fb_status,
+  fb_arm,
+  fb_disarm,
+  fb_takeoff,
+  fb_land,
+  fb_offboard
+};
 
-enum ResultType { null, success, fail, disaster };
+enum ResultType { res_null, res_success, res_fail, res_disaster };
 
 namespace cpp_msg {
 

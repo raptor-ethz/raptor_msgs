@@ -2,17 +2,24 @@
 
 #include "QuadStatus_msg.idl"
 
-module idl_msg{
-  enum FeedbackType { null, status, arm, disarm, takeoff, land, offboard };
+module idl_msg {
+  enum FeedbackType {
+    fb_null,
+    fb_status,
+    fb_arm,
+    fb_disarm,
+    fb_takeoff,
+    fb_land,
+    fb_offboard
+  };
 
-  enum ResultType { null, success, fail, disaster };
+  enum ResultType { res_null, res_success, res_fail, res_disaster };
 
-  struct QuadFeedback_msg{
+  struct QuadFeedback_msg {
     FeedbackType feedback;
 
     QuadStatus_msg status;
 
     ResultType result;
   };
-
 };

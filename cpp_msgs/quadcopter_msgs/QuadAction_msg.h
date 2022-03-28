@@ -1,6 +1,13 @@
 #pragma once
 
-enum Action_cmd { status, arm, disarm, takeoff, land, offboard };
+enum Action_cmd {
+  act_status,
+  act_arm,
+  act_disarm,
+  act_takeoff,
+  act_land,
+  act_offboard
+};
 
 namespace cpp_msg {
 
