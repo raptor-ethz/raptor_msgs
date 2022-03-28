@@ -1,0 +1,11 @@
+#pragma once
+
+module idl_msg {
+
+  enum User_cmd { null, status, land, emg_land, hover};
+
+  struct UserCmd_msg {
+
+    User_cmd command;
+  };
+};

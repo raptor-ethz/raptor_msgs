@@ -10,6 +10,7 @@ target_sources(standard_msgs_lib INTERFACE
     Euler_angle_msg.h
     Vector3f_msg.h
     Vector3i_msg.h
+    UserCmd_msg.h
 )
 
 target_link_libraries(standard_msgs_lib INTERFACE
