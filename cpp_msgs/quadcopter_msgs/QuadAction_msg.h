@@ -6,6 +6,7 @@ enum Action_cmd {
   act_disarm,
   act_takeoff,
   act_land,
+  act_hover,
   act_offboard
 };
 
