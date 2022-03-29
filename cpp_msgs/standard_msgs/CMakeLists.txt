@@ -14,5 +14,5 @@ target_sources(standard_msgs_lib INTERFACE
 )
 
 target_link_libraries(standard_msgs_lib INTERFACE
-    msgs_lib
+    raptor_msgs
 )
