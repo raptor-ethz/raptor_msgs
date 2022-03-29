@@ -5,8 +5,8 @@ namespace cpp_msg {
 
 struct Header_msg {
 
-  long timestamp;
-  long id;
+  int timestamp;
+  int id;
   std::string description;
 };
 
