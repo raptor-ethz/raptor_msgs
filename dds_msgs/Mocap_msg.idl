@@ -12,7 +12,7 @@ struct Mocap_msg {
 
   Vector3f_msg position;
 
-  Euler_angle orientation;
+  Euler_angle_msg orientation;
 
   float latency;
 };
