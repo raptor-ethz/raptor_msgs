@@ -12,8 +12,3 @@ target_sources(standard_msgs_lib INTERFACE
     Vector3i_msg.h
     UserCmd_msg.h
 )
-
-target_link_libraries(standard_msgs_lib INTERFACE
-    raptor_msgs
-    quadcopter_msgs_lib
-)
