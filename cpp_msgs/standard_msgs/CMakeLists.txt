@@ -15,4 +15,5 @@ target_sources(standard_msgs_lib INTERFACE
 
 target_link_libraries(standard_msgs_lib INTERFACE
     raptor_msgs
+    quadcopter_msgs_lib
 )
