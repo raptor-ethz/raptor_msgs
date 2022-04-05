@@ -6,6 +6,8 @@ struct RotGripCmd_msg {
 
   int32 front_arm_deg;
   int32 back_arm_deg;
+  boolean trigger_gripper;
+  boolean get_sensor_val;
 };
 
 };

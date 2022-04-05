@@ -8,7 +8,7 @@ target_sources(quadcopter_msgs_lib INTERFACE
     RotGripCmd_msg.h
     QuadFeedback_msg.h
     QuadStatus_msg.h
-    #GripperSensor_msg.h
+    GripperSensor_msg.h
 )
 
 target_link_libraries(quadcopter_msgs_lib INTERFACE
