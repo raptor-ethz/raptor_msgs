@@ -1,16 +1,18 @@
 #pragma once
-#include "Header_msg.h"
-#include "Vector3f_msg.h"
-
+#include <string>
 namespace cpp_msg
 {
 
   struct MocapSegments_msg
   {
 
-    Header_msg header;
+    std::string object_name;
 
-    Vector3f_msg segments[10];
+    int length;
+
+    float segment_x[10];
+    float segment_y[10];
+    float segment_z[10];
   };
 
 } // namespace cpp_msg
