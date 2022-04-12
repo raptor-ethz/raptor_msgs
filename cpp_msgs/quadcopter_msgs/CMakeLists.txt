@@ -2,6 +2,7 @@ add_library(quadcopter_msgs_lib INTERFACE)
 
 target_sources(quadcopter_msgs_lib INTERFACE
     Mocap_msg.h
+    MocapSegments_msg.h
     QuadPosCmd_msg.h
     QuadVelCmd_msg.h
     QuadAction_msg.h

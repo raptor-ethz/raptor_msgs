@@ -1,0 +1,16 @@
+#pragma once
+
+#include "Header_msg.idl"
+#include "Vector3f_msg.idl"
+
+module idl_msg{
+
+struct MocapSegments_msg {
+
+  Header_msg header;
+
+  Vector3f_msg segments[10];
+
+};
+
+};
