@@ -10,6 +10,8 @@ struct Mocap_msg {
 
   Header_msg header;
 
+  boolean occluded;
+
   Vector3f_msg position;
 
   Euler_angle_msg orientation;

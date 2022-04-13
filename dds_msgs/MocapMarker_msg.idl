@@ -1,0 +1,19 @@
+#pragma once
+
+module idl_msg{
+
+struct MocapMarker_msg {
+
+  string header;
+
+  int32 length;
+
+  boolean occluded[10];
+
+  float marker_x[10];
+  float marker_y[10];
+  float marker_z[10];
+
+};
+
+};
