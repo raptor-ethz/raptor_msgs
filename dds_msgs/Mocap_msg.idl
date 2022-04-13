@@ -3,6 +3,7 @@
 #include "Header_msg.idl"
 #include "Vector3f_msg.idl"
 #include "Euler_angle_msg.idl"
+#include "Quaternion_msg.idl"
 
 module idl_msg{
 
@@ -15,6 +16,8 @@ struct Mocap_msg {
   Vector3f_msg position;
 
   Euler_angle_msg orientation;
+
+  Quaternion_msg quaternion;
 
   float latency;
 };
