@@ -6,7 +6,7 @@ target_sources(quadcopter_msgs_lib INTERFACE
     QuadPosCmd_msg.h
     QuadVelCmd_msg.h
     QuadAction_msg.h
-    RotGripCmd_msg.h
+    GripCmd_msg.h
     QuadFeedback_msg.h
     QuadStatus_msg.h
     GripperSensor_msg.h
